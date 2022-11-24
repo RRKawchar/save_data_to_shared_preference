@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:save_data_to_shared_preferences/screen/home_page.dart';
+import 'package:save_data_to_shared_preferences/test.dart';
 
 void main(){
 
@@ -13,7 +13,7 @@ class MyApp  extends StatelessWidget{
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Save data to Shared preference",
-      home: HomePage(),
+      home: MyHomePage(),
     );
   }
 }

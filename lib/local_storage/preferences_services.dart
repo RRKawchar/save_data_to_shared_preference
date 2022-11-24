@@ -2,6 +2,7 @@ import 'package:save_data_to_shared_preferences/models/model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class PreferencesServices {
+
   Future saveSettings(Settings settings) async {
     final preferences = await SharedPreferences.getInstance();
     await preferences.setString('username', settings.username);
